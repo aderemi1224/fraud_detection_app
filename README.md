@@ -38,8 +38,8 @@ streamlit run demo/app.py
 
 ## Expected Outputs
 
-* EDA report: `EDA_report.pdf`
-* Trained model: `models/fraud_detection_model.pkl`
+* EDA report: `EDA_report.ipynb`
+* Trained model: `rf_fraud_model.pkl`
 * Interactive demo: Streamlit interface for predicting fraud.
   """
 
