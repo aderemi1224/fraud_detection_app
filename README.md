@@ -12,17 +12,11 @@ This project focuses on detecting fraudulent transactions using machine learning
 1. Clone the repository:
 
    ```bash
-   git clone <repo_link>
+   git clone https://github.com/aderemi1224/fraud_detection_app.git
    cd fraud_detection_project
    ```
-2. Create and activate a virtual environment:
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # Mac/Linux
-   venv\Scripts\activate     # Windows
-   ```
-3. Install dependencies:
+2. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
