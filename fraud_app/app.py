@@ -1,9 +1,12 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
-# Load model
-model = joblib.load('rf_fraud_model.pkl')
+BASE_DIR = os.path.dirname(__file__)  # directory of app.py
+model_path = os.path.join(BASE_DIR, "rf_fraud_model.pkl")
+model = joblib.load(model_path)
+
 
 st.title("💳 Fraud Detection Demo")
 st.write("Enter transaction details:")
