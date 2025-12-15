@@ -3,9 +3,10 @@ import pandas as pd
 import joblib
 import os
 
-BASE_DIR = os.path.dirname(__file__)  # directory of app.py
-model_path = os.path.join(BASE_DIR, "rf_fraud_model.pkl")
-model = joblib.load(model_path)
+import joblib
+import os
+
+model = joblib.load("rf_fraud_model.pkl")
 
 
 st.title("💳 Fraud Detection Demo")
