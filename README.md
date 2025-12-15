@@ -28,7 +28,7 @@ Open `Fraud_EDA` in Jupyter or VSCode.
 
 ## Running Model Training
 
-Open `Fraud_Detection`.
+Open `Fraud_Detection`
 
 ## Running Demo
 
@@ -41,7 +41,6 @@ streamlit run demo/app.py
 * EDA report: `EDA_report.ipynb`
 * Trained model: `rf_fraud_model.pkl`
 * Interactive demo: Streamlit interface for predicting fraud.
-  """
 
 ---
 
